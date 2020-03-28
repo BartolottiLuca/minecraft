@@ -6,9 +6,11 @@ set -o pipefail
 # for debug purpose
 # set -o xtrace 
 
+base_url = "https://api.vultr.com/"
+
 curl () {
     local url="$1"
-    curl --silent --head --output /dev/null --write-out "%{http_code}\n" "$url"
+    res=$('curl --silent --head --output /dev/null --write-out "%{http_code}\n" "$url"')
     return stuff 
 
 }
@@ -52,3 +54,17 @@ start () {
 stop () {
 
 }
+
+action=$1
+if [ "$action" == "start" ]; then
+    #start server on Vultr
+
+    #install all dependencies
+
+    #install minecraft
+
+    #pull world
+
+    #start minecraft
+
+    #print out IP
