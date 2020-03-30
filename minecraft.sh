@@ -8,11 +8,23 @@ set -o pipefail
 
 base_url="https://api.vultr.com/"
 
-curl () {
-    local url="$1"
-    res=$('curl --silent --head --output /dev/null --write-out "%{http_code}\n" "$url"')
-    return stuff 
+check_code () {
+    code=$1
+    if [[code -gt 399]]; then
+        # make everything blow up, prefere
+}
 
+get () {
+    url="$1"
+    res=$(curl -H "API-Key: $VULTR_API_KEY" $url)
+    code=$?
+}
+
+
+post () {
+    url="$1"
+    res=$(curl -H "API-Key: $VULTR_API_KEY" $url)
+    code=$?
 }
 
 start_server () {
