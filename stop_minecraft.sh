@@ -7,8 +7,12 @@ set -o pipefail
 # set -o xtrace 
 
 IP=`cat /tmp/server_IP` 
+vps_id=`cat /tmp/vps_id`
 # kill java process
+ssh -o StrictHostKeyChecking=no root@$IP "ps -aux | grep java | grep -v grep |  awk '{print $2}' | xargs kill -TERM"
+sleep 30
 
-echo "yes" | ssh root@$IP "cd minecraft && git commit -am \"Automathic commit\" && git push"
+ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft && git commit -am \"Automathic commit\" && git push"
 
-curl # destroy server
+sleep 15
+curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/destroy --data "SUBID=$vps_id"
