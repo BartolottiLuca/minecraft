@@ -17,20 +17,20 @@ vps_id=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/create
 
 ready=0
 i=0
-while [ $ready -eq 0 ] && [ $i -le 18 ]; do
+while [ $ready -eq 0 ] && [ $i -le 20 ]; do
     readiness=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/list#SUBID=$vps_id | awk -F 'status\":' '{print $2}' | cut -d, -f1 | cut -d\" -f2`
     state=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/list#SUBID=$vps_id | awk -F 'server_state\":' '{print $2}' | cut -d, -f1 | cut -d\" -f2`
     if [ $readiness = "active" ] && [ $state = "ok" ]; then
         ready=1
     else
         i=$[ $i + 1 ]
-        echo "sleep another 10 seconds"
-        sleep 10
+        echo "sleep another 30 seconds"
+        sleep 30
     fi
 done
 
 if [ $ready -eq 0 ]; then
-    echo "server not ready after 3 minutes, DELETE THE MF MANUALLY"
+    echo "server not ready after 6 minutes, DELETE THE MF MANUALLY"
     exit 1
 fi
 
@@ -40,5 +40,9 @@ echo $vps_id > /tmp/vps_id
 echo $IP > /tmp/server_IP
 
 echo "SERVER IP: $IP"
-scp -o StrictHostKeyChecking=no ~/.ssh/id_rsa root@$IP:/root/.ssh/ 
-ssh -o StrictHostKeyChecking=no root@$IP "sudo apt-get install openjdk-8-jdk-headless -y && git clone git@github.com:BartolottiLuca/minecraft.git && cd minecraft && java -Xms1G -Xmx2G -jar server.jar nogui "
+scp -o StrictHostKeyChecking=no ~/.ssh/id_rsa root@$IP:/root/.ssh/
+ssh -o StrictHostKeyChecking=no root@$IP "chmod 600 ~/.ssh/id_rsa"
+ssh -o StrictHostKeyChecking=no root@$IP "apt-get install openjdk-8-jdk-headless -y"
+ssh -o StrictHostKeyChecking=no root@$IP 'echo -e "Host github.com\n\tStrictHostKeyChecking" no > ~/.ssh/config'
+ssh -o StrictHostKeyChecking=no root@$IP "git clone git@github.com:BartolottiLuca/minecraft.git"
+ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft && java -Xms1G -Xmx2G -jar server.jar nogui"
