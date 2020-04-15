@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+RED='\033[0;31m'
+ORANGE='\033[0;33m'
+BLUE='\033[1;36m'
+NC='\033[0m' # No Color
+
 set -o errexit
 set -o pipefail
 
@@ -39,10 +44,11 @@ echo "IP of server $IP"
 echo $vps_id > /tmp/vps_id
 echo $IP > /tmp/server_IP
 
-echo "SERVER IP: $IP"
 scp -o StrictHostKeyChecking=no ~/.ssh/id_rsa root@$IP:/root/.ssh/
 ssh -o StrictHostKeyChecking=no root@$IP "chmod 600 ~/.ssh/id_rsa"
 ssh -o StrictHostKeyChecking=no root@$IP "apt-get install openjdk-8-jdk-headless -y"
 ssh -o StrictHostKeyChecking=no root@$IP 'echo -e "Host github.com\n\tStrictHostKeyChecking" no > ~/.ssh/config'
 ssh -o StrictHostKeyChecking=no root@$IP "git clone git@github.com:BartolottiLuca/minecraft.git"
+echo -e "${BLUE}SERVER IP: ${RED} $IP ${NC}"
+
 ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft && java -Xms1G -Xmx2G -jar server.jar nogui"

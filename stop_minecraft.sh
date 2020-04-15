@@ -2,8 +2,8 @@
 
 # lol
 
-set -o errexit
-set -o pipefail
+# set -o errexit
+# set -o pipefail
 
 # for debug purpose
 # set -o xtrace 
