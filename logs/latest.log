@@ -1,152 +1,48 @@
-[19:42:55] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:42:55] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:42:55] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:42:55] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19:42:55] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19:42:55] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[19:42:55] [Server thread/INFO]: Loading properties
-[19:42:55] [Server thread/INFO]: Default game type: SURVIVAL
-[19:42:55] [Server thread/INFO]: Generating keypair
-[19:42:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:42:55] [Server thread/INFO]: Using epoll channel type
-[19:42:55] [Server thread/INFO]: Preparing level "world"
-[19:42:55] [Server thread/INFO]: Reloading ResourceManager: Default
-[19:42:59] [Server thread/INFO]: Loaded 6 recipes
-[19:42:59] [Server thread/INFO]: Loaded 825 advancements
-[19:43:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:43:26] [Server thread/INFO]: Preparing spawn area: 0%
-[19:43:26] [Server thread/INFO]: Preparing spawn area: 0%
-[19:43:26] [Server thread/INFO]: Preparing spawn area: 0%
-[19:43:28] [Server-Worker-1/INFO]: Preparing spawn area: 56%
-[19:43:28] [Server thread/INFO]: Preparing spawn area: 56%
-[19:43:28] [Server thread/INFO]: Preparing spawn area: 56%
-[19:43:28] [Server thread/INFO]: Preparing spawn area: 56%
-[19:43:28] [Server thread/INFO]: Preparing spawn area: 66%
-[19:43:29] [Server-Worker-1/INFO]: Preparing spawn area: 95%
-[19:43:29] [Server thread/INFO]: Preparing spawn area: 96%
-[19:43:30] [Server thread/INFO]: Preparing spawn area: 99%
-[19:43:30] [Server thread/INFO]: Time elapsed: 5191 ms
-[19:43:30] [Server thread/INFO]: Done (34.778s)! For help, type "help"
-[19:43:30] [Server thread/INFO]: Starting remote control listener
-[19:43:30] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
-[19:44:31] [User Authenticator #1/INFO]: UUID of player PastaFeeder is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
-[19:44:31] [Server thread/INFO]: PastaFeeder[/81.99.216.122:1389] logged in with entity id 104 at (2805.773983482159, 95.0, -687.8047020139117)
-[19:44:32] [Server thread/INFO]: PastaFeeder joined the game
-[19:44:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3962ms or 79 ticks behind
-[20:57:47] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=2941, y=71, z=-712} fk{x=2941, y=71, z=-711}
-[20:57:47] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=2941, y=71, z=-712} fk{x=2941, y=71, z=-711}
-[20:57:47] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=2941, y=71, z=-712} fk{x=2941, y=71, z=-711}
-[20:57:47] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=2941, y=71, z=-712} fk{x=2941, y=71, z=-711}
-[20:57:48] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=2941, y=71, z=-712} fk{x=2941, y=71, z=-711}
-[21:07:57] [Server thread/INFO]: /advancement (grant|revoke)
-[21:07:57] [Server thread/INFO]: /ban <targets> [<reason>]
-[21:07:57] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[21:07:57] [Server thread/INFO]: /banlist [ips|players]
-[21:07:57] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
-[21:07:57] [Server thread/INFO]: /clear [<targets>]
-[21:07:57] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[21:07:57] [Server thread/INFO]: /data (get|merge|modify|remove)
-[21:07:57] [Server thread/INFO]: /datapack (disable|enable|list)
-[21:07:57] [Server thread/INFO]: /debug (report|start|stop)
-[21:07:57] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
-[21:07:57] [Server thread/INFO]: /deop <targets>
-[21:07:57] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
-[21:07:57] [Server thread/INFO]: /effect (clear|give)
-[21:07:57] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[21:07:57] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[21:07:57] [Server thread/INFO]: /experience (add|query|set)
-[21:07:57] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[21:07:57] [Server thread/INFO]: /forceload (add|query|remove)
-[21:07:57] [Server thread/INFO]: /function <name>
-[21:07:57] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
-[21:07:57] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks)
-[21:07:57] [Server thread/INFO]: /give <targets> <item> [<count>]
-[21:07:57] [Server thread/INFO]: /help [<command>]
-[21:07:57] [Server thread/INFO]: /kick <targets> [<reason>]
-[21:07:57] [Server thread/INFO]: /kill [<targets>]
-[21:07:57] [Server thread/INFO]: /list [uuids]
-[21:07:57] [Server thread/INFO]: /locate (Buried_Treasure|Desert_Pyramid|EndCity|Fortress|Igloo|Jungle_Pyramid|Mansion|Mineshaft|Monument|Ocean_Ruin|Pillager_Outpost|Shipwreck|Stronghold|Swamp_Hut|Village)
-[21:07:57] [Server thread/INFO]: /loot (give|insert|replace|spawn)
-[21:07:57] [Server thread/INFO]: /me <action>
-[21:07:57] [Server thread/INFO]: /msg <targets> <message>
-[21:07:57] [Server thread/INFO]: /op <targets>
-[21:07:57] [Server thread/INFO]: /pardon <targets>
-[21:07:57] [Server thread/INFO]: /pardon-ip <target>
-[21:07:57] [Server thread/INFO]: /particle <name> [<pos>]
-[21:07:57] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[21:07:57] [Server thread/INFO]: /recipe (give|take)
-[21:07:57] [Server thread/INFO]: /reload
-[21:07:57] [Server thread/INFO]: /replaceitem (block|entity)
-[21:07:57] [Server thread/INFO]: /save-all [flush]
-[21:07:57] [Server thread/INFO]: /save-off
-[21:07:57] [Server thread/INFO]: /save-on
-[21:07:57] [Server thread/INFO]: /say <message>
-[21:07:57] [Server thread/INFO]: /schedule (clear|function)
-[21:07:57] [Server thread/INFO]: /scoreboard (objectives|players)
-[21:07:57] [Server thread/INFO]: /seed
-[21:07:57] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[21:07:57] [Server thread/INFO]: /setidletimeout <minutes>
-[21:07:57] [Server thread/INFO]: /setworldspawn [<pos>]
-[21:07:57] [Server thread/INFO]: /spawnpoint [<targets>]
-[21:07:57] [Server thread/INFO]: /spectate [<target>]
-[21:07:57] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> <respectTeams> <targets>
-[21:07:57] [Server thread/INFO]: /stop
-[21:07:57] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[21:07:57] [Server thread/INFO]: /summon <entity> [<pos>]
-[21:07:57] [Server thread/INFO]: /tag <targets> (add|list|remove)
-[21:07:57] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
-[21:07:57] [Server thread/INFO]: /teammsg <message>
-[21:07:57] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
-[21:07:57] [Server thread/INFO]: /tell -> msg
-[21:07:57] [Server thread/INFO]: /tellraw <targets> <message>
-[21:07:57] [Server thread/INFO]: /time (add|query|set)
-[21:07:57] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[21:07:57] [Server thread/INFO]: /tm -> teammsg
-[21:07:57] [Server thread/INFO]: /tp -> teleport
-[21:07:57] [Server thread/INFO]: /trigger <objective> [add|set]
-[21:07:57] [Server thread/INFO]: /w -> msg
-[21:07:57] [Server thread/INFO]: /weather (clear|rain|thunder)
-[21:07:57] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
-[21:07:57] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
-[21:07:57] [Server thread/INFO]: /xp -> experience
-[21:08:02] [Server thread/INFO]: Unknown command
-[21:08:02] [Server thread/INFO]: /h<--[HERE]
-[21:08:04] [Server thread/INFO]: Unknown command
-[21:08:04] [Server thread/INFO]: h<--[HERE]
-[21:08:23] [Server thread/INFO]: Unknown command
-[21:08:23] [Server thread/INFO]: //tp help<--[HERE]
-[21:08:45] [Server thread/INFO]: Incorrect argument for command
-[21:08:45] [Server thread/INFO]: /tp 337/42/101<--[HERE]
-[21:08:50] [Server thread/INFO]: Unknown command
-[21:08:50] [Server thread/INFO]: [A [B <--[HERE]
-[21:09:05] [Server thread/INFO]: Incorrect argument for command
-[21:09:05] [Server thread/INFO]: /tp 337/42/110 PastaFeeder<--[HERE]
-[21:10:43] [Server thread/INFO]: Unknown command
-[21:10:43] [Server thread/INFO]: [A[B/<--[HERE]
-[21:11:02] [Server thread/INFO]: Unknown command
-[21:11:02] [Server thread/INFO]: /t ~337 ~42 ~101<--[HERE]
-[21:11:08] [Server thread/INFO]: Unknown command
-[21:11:08] [Server thread/INFO]: 3[A[D[B[B<--[HERE]
-[21:11:19] [Server thread/INFO]: Incorrect argument for command
-[21:11:19] [Server thread/INFO]: ... ~337 ~42 ~101<--[HERE]
-[21:12:06] [Server thread/INFO]: Teleported PastaFeeder to 337.5, 42.0, 101.5
-[21:16:30] [Server thread/INFO]: Teleported PastaFeeder to 2820.5, 95.0, -676.5
-[21:16:30] [Server thread/WARN]: PastaFeeder moved too quickly! 2464.148494791578,84.0,-830.7291201663028
-[21:16:30] [Server thread/INFO]: Teleported PastaFeeder to 2820.5, 95.0, -676.5
-[21:18:21] [Server thread/INFO]: Gave 64 [Diamond] to PastaFeeder
-[21:23:35] [Server thread/INFO]: PastaFeeder has made the advancement [Cover Me With Diamonds]
-[21:24:06] [Server thread/INFO]: PastaFeeder lost connection: Disconnected
-[21:24:06] [Server thread/INFO]: PastaFeeder left the game
-[21:27:00] [Server thread/INFO]: Stopping the server
-[21:27:00] [Server thread/INFO]: Stopping server
-[21:27:00] [Server thread/INFO]: Saving players
-[21:27:00] [Server thread/INFO]: Saving worlds
-[21:27:00] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[21:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:27:00] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[21:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:27:00] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[21:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:27:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:21:56] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:21:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:21:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:21:56] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:21:56] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:21:56] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[17:21:56] [Server thread/INFO]: Loading properties
+[17:21:56] [Server thread/INFO]: Default game type: SURVIVAL
+[17:21:56] [Server thread/INFO]: Generating keypair
+[17:21:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:21:57] [Server thread/INFO]: Using epoll channel type
+[17:21:57] [Server thread/INFO]: Preparing level "world"
+[17:21:57] [Server thread/INFO]: Reloading ResourceManager: Default
+[17:21:59] [Server thread/INFO]: Loaded 6 recipes
+[17:22:00] [Server thread/INFO]: Loaded 825 advancements
+[17:22:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:22:26] [Server thread/INFO]: Preparing spawn area: 0%
+[17:22:26] [Server thread/INFO]: Preparing spawn area: 0%
+[17:22:26] [Server thread/INFO]: Preparing spawn area: 0%
+[17:22:29] [Server-Worker-1/INFO]: Preparing spawn area: 62%
+[17:22:29] [Server-Worker-1/INFO]: Preparing spawn area: 62%
+[17:22:29] [Server-Worker-1/INFO]: Preparing spawn area: 62%
+[17:22:29] [Server-Worker-1/INFO]: Preparing spawn area: 62%
+[17:22:29] [Server thread/INFO]: Preparing spawn area: 62%
+[17:22:29] [Server-Worker-1/INFO]: Preparing spawn area: 97%
+[17:22:30] [Server thread/INFO]: Preparing spawn area: 97%
+[17:22:30] [Server thread/INFO]: Time elapsed: 4956 ms
+[17:22:30] [Server thread/INFO]: Done (33.302s)! For help, type "help"
+[17:22:30] [Server thread/INFO]: Starting remote control listener
+[17:22:30] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
+[17:22:36] [User Authenticator #1/INFO]: UUID of player PastaFeeder is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[17:22:36] [Server thread/INFO]: PastaFeeder[/81.99.216.122:14191] logged in with entity id 98 at (2818.1116847778885, 95.0, -681.1219960691151)
+[17:22:38] [Server thread/INFO]: PastaFeeder joined the game
+[18:29:05] [Server thread/INFO]: PastaFeeder lost connection: Disconnected
+[18:29:05] [Server thread/INFO]: PastaFeeder left the game
+[18:29:18] [Server thread/INFO]: Stopping the server
+[18:29:18] [Server thread/INFO]: Stopping server
+[18:29:18] [Server thread/INFO]: Saving players
+[18:29:18] [Server thread/INFO]: Saving worlds
+[18:29:18] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[18:29:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:29:18] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[18:29:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:29:18] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:29:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:29:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:29:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:29:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
