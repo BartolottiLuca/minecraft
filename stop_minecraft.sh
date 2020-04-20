@@ -14,7 +14,7 @@ vps_id=`cat /tmp/vps_id`
 ssh -o StrictHostKeyChecking=no root@$IP "ps -aux | grep java | grep -v grep |  awk '{print $2}' | xargs kill -TERM"
 sleep 30
 
-ssh -o StrictHostKeyChecking=no root@$IP "tar cvf ~/minecraft/my-server.tar ~/minecraft/my-server/"
+ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft && tar cvf my-server.tar my-server/"
 ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft && git commit -am \"Automatic commit\" && git push"
 
 sleep 15
