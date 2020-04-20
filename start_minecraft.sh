@@ -16,7 +16,7 @@ region_id=8 # london
 # 401 -> 1 CPU 2GB ram HIGH FREQ
 # 202 -> 1 CPU 2GB ram SSD
 # 203 -> 2 CPU 4GB ram SSD
-plan_id=203
+plan_id=202
 
 vps_id=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/create --data "DCID=$region_id" --data "SSHKEYID=$VULTR_SSH_KEY_ID" --data "VPSPLANID=$plan_id" --data "OSID=$os_id" | cut -d: -f2 | cut -d} -f1 | cut -d\" -f2 `
 sleep 10
@@ -49,6 +49,8 @@ ssh -o StrictHostKeyChecking=no root@$IP "chmod 600 ~/.ssh/id_rsa"
 ssh -o StrictHostKeyChecking=no root@$IP "apt-get install openjdk-8-jdk-headless -y"
 ssh -o StrictHostKeyChecking=no root@$IP 'echo -e "Host github.com\n\tStrictHostKeyChecking" no > ~/.ssh/config'
 ssh -o StrictHostKeyChecking=no root@$IP "git clone git@github.com:BartolottiLuca/minecraft.git"
+ssh -o StrictHostKeyChecking=no root@$IP "tar -xzf ~/minecraft/my-server.tar.gz"
+
 echo -e "${BLUE}SERVER IP: ${RED} $IP ${NC}"
 
-ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft && java -Xms1G -Xmx2G -jar server.jar nogui"
+ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft/my-server/ && java -Xms1G -Xmx1G -jar server.jar nogui"
