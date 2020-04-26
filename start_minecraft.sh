@@ -46,7 +46,7 @@ echo $IP > /tmp/server_IP
 
 scp -o StrictHostKeyChecking=no ~/.ssh/id_rsa root@$IP:/root/.ssh/
 ssh -o StrictHostKeyChecking=no root@$IP "chmod 600 ~/.ssh/id_rsa"
-ssh -o StrictHostKeyChecking=no root@$IP "apt-get install openjdk-8-jdk-headless -y"
+ssh -o StrictHostKeyChecking=no root@$IP "apt-get update && apt-get install openjdk-8-jdk-headless -y"
 ssh -o StrictHostKeyChecking=no root@$IP 'echo -e "Host github.com\n\tStrictHostKeyChecking" no > ~/.ssh/config'
 ssh -o StrictHostKeyChecking=no root@$IP "git clone git@github.com:BartolottiLuca/minecraft.git"
 ssh -o StrictHostKeyChecking=no root@$IP "cd minecraft && tar xvf ~/minecraft/my-server.tar"
