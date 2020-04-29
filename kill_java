@@ -1,2 +1,0 @@
-kill $(pgrep java)
-sleep 30
