@@ -16,7 +16,7 @@ region_id=8 # london
 # 401 -> 1 CPU 2GB ram HIGH FREQ
 # 202 -> 1 CPU 2GB ram SSD
 # 203 -> 2 CPU 4GB ram SSD
-plan_id=202
+plan_id=203
 
 vps_id=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/create --data "DCID=$region_id" --data "SSHKEYID=$VULTR_SSH_KEY_ID" --data "VPSPLANID=$plan_id" --data "OSID=$os_id" | cut -d: -f2 | cut -d} -f1 | cut -d\" -f2 `
 sleep 10
@@ -53,4 +53,4 @@ ssh -o StrictHostKeyChecking=no root@$IP "cd minecraft && tar xvf ~/minecraft/my
 
 echo -e "${BLUE}SERVER IP: ${RED} $IP ${NC}"
 
-ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft/my-server/ && java -Xms1G -Xmx1G -jar server.jar nogui"
+ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft/my-server/ && java -Xms1G -Xmx3G -jar server.jar nogui"
