@@ -8,9 +8,6 @@ NC='\033[0m' # No Color
 set -o errexit
 set -o pipefail
 
-# for debug purpose
-# set -o xtrace 
-
 os_id=365 # ubuntu 19.04
 region_id=8 # london
 # 401 -> 1 CPU 2GB ram HIGH FREQ
@@ -50,7 +47,6 @@ ssh -o StrictHostKeyChecking=no root@$IP "chmod 600 ~/.ssh/id_rsa"
 ssh -o StrictHostKeyChecking=no root@$IP "apt-get update && apt-get install openjdk-8-jdk-headless -y"
 ssh -o StrictHostKeyChecking=no root@$IP 'echo -e "Host github.com\n\tStrictHostKeyChecking" no > ~/.ssh/config'
 ssh -o StrictHostKeyChecking=no root@$IP "git clone git@github.com:BartolottiLuca/minecraft.git"
-ssh -o StrictHostKeyChecking=no root@$IP "cd minecraft && tar xvf ~/minecraft/my-server.tar"
 
 echo -e "${BLUE}SERVER IP: ${RED} $IP ${NC}"
 
