@@ -27,7 +27,7 @@ while [ $ready -eq 0 ] && [ $i -le 20 ]; do
         ready=1
     else
         i=$[ $i + 1 ]
-        echo -e "${ORANGE}Sleep another 30 seconds${NC}"
+        echo -e "${ORANGE}${i}: Sleep another 30 seconds${NC}"
         sleep 30
     fi
 done
