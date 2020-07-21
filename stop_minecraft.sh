@@ -17,4 +17,4 @@ ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft && tar cvzf my-server.t
 ssh -o StrictHostKeyChecking=no root@$IP "cd ~/minecraft && git commit -am \"Automatic commit\" && git push"
 
 sleep 15
-curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/destroy --data "SUBID=$vps_id"
+curl -s -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/destroy --data "SUBID=$vps_id"

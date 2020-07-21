@@ -18,28 +18,29 @@ region_id=8 # london
 # 203 -> 2 CPU 4GB ram SSD
 plan_id=203
 
-vps_id=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/create --data "DCID=$region_id" --data "SSHKEYID=$VULTR_SSH_KEY_ID" --data "VPSPLANID=$plan_id" --data "OSID=$os_id" | cut -d: -f2 | cut -d} -f1 | cut -d\" -f2 `
+echo -e "${BLUE}Trigger the Vultr server creation${NC}"
+vps_id=`curl -s -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/create --data "DCID=$region_id" --data "SSHKEYID=$VULTR_SSH_KEY_ID" --data "VPSPLANID=$plan_id" --data "OSID=$os_id" | cut -d: -f2 | cut -d} -f1 | cut -d\" -f2 `
 sleep 10
 ready=0
 i=0
 while [ $ready -eq 0 ] && [ $i -le 20 ]; do
-    readiness=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/list#SUBID=$vps_id | awk -F 'status\":' '{print $2}' | cut -d, -f1 | cut -d\" -f2`
-    state=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/list#SUBID=$vps_id | awk -F 'server_state\":' '{print $2}' | cut -d, -f1 | cut -d\" -f2`
+    readiness=`curl -s -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/list#SUBID=$vps_id | awk -F 'status\":' '{print $2}' | cut -d, -f1 | cut -d\" -f2`
+    state=`curl -s -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/list#SUBID=$vps_id | awk -F 'server_state\":' '{print $2}' | cut -d, -f1 | cut -d\" -f2`
     if [ $readiness = "active" ] && [ $state = "ok" ]; then
         ready=1
     else
         i=$[ $i + 1 ]
-        echo "sleep another 30 seconds"
+        echo -e "${ORANGE}Sleep another 30 seconds${NC}"
         sleep 30
     fi
 done
 
 if [ $ready -eq 0 ]; then
-    echo "server not ready after 6 minutes, DELETE THE MF MANUALLY"
+    echo -e "${RED}server not ready after 6 minutes, DELETE THE MF MANUALLY${NC}"
     exit 1
 fi
 
-IP=`curl -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/list#SUBID=$vps_id | awk -F 'main_ip\":' '{print $2}' | cut -d, -f1 | cut -d\" -f2`
+IP=`curl -s -H "API-Key: $VULTR_API_KEY" https://api.vultr.com/v1/server/list#SUBID=$vps_id | awk -F 'main_ip\":' '{print $2}' | cut -d, -f1 | cut -d\" -f2`
 echo "IP of server $IP"
 echo $vps_id > /tmp/vps_id
 echo $IP > /tmp/server_IP
