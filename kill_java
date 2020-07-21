@@ -1,2 +1,2 @@
-kill $(pgrep java)
+kill -TERM $(pgrep java)
 sleep 30
