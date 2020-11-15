@@ -1,58 +1,35 @@
-[16:16:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[16:16:48] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:16:48] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:16:48] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:16:48] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:16:48] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:16:48] [main/INFO]: Reloading ResourceManager: Default
-[16:16:49] [Worker-Main-2/INFO]: Loaded 7 recipes
-[16:16:49] [Worker-Main-2/INFO]: Loaded 927 advancements
-[16:16:50] [Server thread/INFO]: Starting minecraft server version 1.16.1
-[16:16:50] [Server thread/INFO]: Loading properties
-[16:16:50] [Server thread/INFO]: Default game type: SURVIVAL
-[16:16:50] [Server thread/INFO]: Generating keypair
-[16:16:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:16:51] [Server thread/INFO]: Using epoll channel type
-[16:16:51] [Server thread/INFO]: Preparing level "world"
-[16:16:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:16:52] [Server thread/INFO]: Preparing spawn area: 0%
-[16:16:52] [Server thread/INFO]: Preparing spawn area: 0%
-[16:16:52] [Server thread/INFO]: Preparing spawn area: 0%
-[16:16:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[16:16:55] [Server thread/INFO]: Preparing spawn area: 0%
-[16:16:55] [Server thread/INFO]: Preparing spawn area: 0%
-[16:16:55] [Server thread/INFO]: Preparing spawn area: 0%
-[16:16:55] [Server thread/INFO]: Preparing spawn area: 0%
-[16:16:57] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[16:16:57] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[16:16:57] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[16:16:57] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[16:16:57] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[16:16:57] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[16:16:59] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[16:16:59] [Server thread/INFO]: Preparing spawn area: 83%
-[16:16:59] [Server thread/INFO]: Preparing spawn area: 83%
-[16:16:59] [Server thread/INFO]: Time elapsed: 8489 ms
-[16:16:59] [Server thread/INFO]: Done (8.630s)! For help, type "help"
-[16:16:59] [Server thread/INFO]: Starting remote control listener
-[16:16:59] [Server thread/INFO]: Thread RCON Listener started
-[16:16:59] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:25575
-[16:17:57] [User Authenticator #1/INFO]: UUID of player PastaFeeder is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
-[16:17:57] [Server thread/INFO]: PastaFeeder[/81.99.216.122:2549] logged in with entity id 95 at (2838.0551486044906, 95.5625, -671.5810448862021)
-[16:17:57] [Server thread/INFO]: PastaFeeder joined the game
-[16:19:36] [Server thread/INFO]: PastaFeeder lost connection: Disconnected
-[16:19:36] [Server thread/INFO]: PastaFeeder left the game
-[16:19:39] [Server thread/INFO]: Stopping the server
-[16:19:40] [Server thread/INFO]: Stopping server
-[16:19:40] [Server thread/INFO]: Saving players
-[16:19:40] [Server thread/INFO]: Saving worlds
-[16:19:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:19:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:19:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:19:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:19:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:19:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:19:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:19:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:19:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:19:40] [Server thread/INFO]: Thread RCON Listener stopped
+[18:41:44] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:41:45] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:41:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:41:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:41:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18:41:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18:41:45] [main/INFO]: Reloading ResourceManager: Default
+[18:41:46] [Worker-Main-2/INFO]: Loaded 7 recipes
+[18:41:47] [Worker-Main-2/INFO]: Loaded 927 advancements
+[18:41:49] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[18:41:49] [Server thread/INFO]: Loading properties
+[18:41:49] [Server thread/INFO]: Default game type: SURVIVAL
+[18:41:49] [Server thread/INFO]: Generating keypair
+[18:41:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:41:49] [Server thread/INFO]: Using epoll channel type
+[18:41:49] [Server thread/INFO]: Preparing level "world"
+[18:41:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:41:51] [Server thread/INFO]: Preparing spawn area: 0%
+[18:41:51] [Server thread/INFO]: Preparing spawn area: 0%
+[18:41:51] [Server thread/INFO]: Preparing spawn area: 0%
+[18:41:51] [Server thread/INFO]: Preparing spawn area: 0%
+[18:41:51] [Server thread/INFO]: Preparing spawn area: 31%
+[18:41:52] [Server thread/INFO]: Preparing spawn area: 31%
+[18:41:52] [Server thread/INFO]: Time elapsed: 3102 ms
+[18:41:52] [Server thread/INFO]: Done (3.251s)! For help, type "help"
+[18:41:52] [Server thread/INFO]: Starting remote control listener
+[18:41:52] [Server thread/INFO]: Thread RCON Listener started
+[18:41:52] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[18:42:31] [User Authenticator #1/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[18:42:31] [Server thread/INFO]: ffeedd[/92.6.101.248:3174] logged in with entity id 247 at (167.9459074982203, 67.0, -83.05064326522576)
+[18:42:31] [Server thread/INFO]: ffeedd (formerly known as PastaFeeder) joined the game
+[18:50:15] [Server thread/INFO]: [ffeedd: Set own game mode to Creative Mode]
+[20:18:28] [Server thread/INFO]: [ffeedd: Set own game mode to Survival Mode]
+[20:18:34] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[20:18:34] [Server thread/INFO]: ffeedd left the game
