@@ -1,31 +1,150 @@
-[20:31:05] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:31:06] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:31:06] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:31:06] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:31:06] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:31:06] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:31:06] [main/INFO]: Reloading ResourceManager: Default
-[20:31:06] [Worker-Main-2/INFO]: Loaded 7 recipes
-[20:31:06] [Worker-Main-2/INFO]: Loaded 927 advancements
-[20:31:08] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[20:31:08] [Server thread/INFO]: Loading properties
-[20:31:08] [Server thread/INFO]: Default game type: SURVIVAL
-[20:31:08] [Server thread/INFO]: Generating keypair
-[20:31:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:31:08] [Server thread/INFO]: Using epoll channel type
-[20:31:08] [Server thread/INFO]: Preparing level "world"
-[20:31:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:31:10] [Server thread/INFO]: Preparing spawn area: 0%
-[20:31:10] [Server thread/INFO]: Preparing spawn area: 0%
-[20:31:10] [Server thread/INFO]: Preparing spawn area: 0%
-[20:31:10] [Server thread/INFO]: Preparing spawn area: 0%
-[20:31:11] [Server thread/INFO]: Time elapsed: 2246 ms
-[20:31:11] [Server thread/INFO]: Done (2.375s)! For help, type "help"
-[20:31:11] [Server thread/INFO]: Starting remote control listener
-[20:31:11] [Server thread/INFO]: Thread RCON Listener started
-[20:31:11] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[20:39:56] [User Authenticator #1/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
-[20:39:56] [Server thread/INFO]: ffeedd[/92.6.101.248:3714] logged in with entity id 274 at (144.0798428064651, 79.0, -39.983718239542505)
-[20:39:56] [Server thread/INFO]: ffeedd joined the game
-[20:40:35] [Server thread/INFO]: ffeedd lost connection: Disconnected
-[20:40:35] [Server thread/INFO]: ffeedd left the game
+[14:09:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:09:45] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:09:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:09:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:09:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:09:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:09:45] [main/INFO]: Reloading ResourceManager: Default
+[14:09:46] [Worker-Main-2/INFO]: Loaded 7 recipes
+[14:09:47] [Worker-Main-2/INFO]: Loaded 927 advancements
+[14:09:48] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[14:09:48] [Server thread/INFO]: Loading properties
+[14:09:48] [Server thread/INFO]: Default game type: SURVIVAL
+[14:09:48] [Server thread/INFO]: Generating keypair
+[14:09:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:09:49] [Server thread/INFO]: Using epoll channel type
+[14:09:49] [Server thread/INFO]: Preparing level "world"
+[14:09:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:09:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:09:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:09:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:09:51] [Server thread/INFO]: Preparing spawn area: 66%
+[14:09:51] [Server thread/INFO]: Time elapsed: 1908 ms
+[14:09:51] [Server thread/INFO]: Done (2.061s)! For help, type "help"
+[14:09:51] [Server thread/INFO]: Starting remote control listener
+[14:09:51] [Server thread/INFO]: Thread RCON Listener started
+[14:09:51] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[14:29:09] [User Authenticator #1/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[14:29:09] [Server thread/INFO]: ffeedd[/95.151.34.20:2020] logged in with entity id 275 at (144.31647401217234, 79.0, -39.394787354128496)
+[14:29:09] [Server thread/INFO]: ffeedd joined the game
+[14:29:31] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[14:29:31] [Server thread/INFO]: ffeedd left the game
+[14:49:30] [User Authenticator #2/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[14:49:31] [Server thread/INFO]: ffeedd[/95.151.34.20:2073] logged in with entity id 361 at (144.31647401217234, 79.0, -39.394787354128496)
+[14:49:31] [Server thread/INFO]: ffeedd joined the game
+[14:49:55] [Server thread/INFO]: ffeedd fell from a high place
+[14:53:49] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[14:53:49] [Server thread/INFO]: ffeedd left the game
+[14:56:02] [User Authenticator #3/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[14:56:03] [Server thread/INFO]: ffeedd[/95.151.34.20:2095] logged in with entity id 1008 at (111.48499328553604, 64.0, -39.029077312281146)
+[14:56:03] [Server thread/INFO]: ffeedd joined the game
+[14:56:08] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[14:56:08] [Server thread/INFO]: ffeedd left the game
+[14:58:06] [User Authenticator #4/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[14:58:06] [Server thread/INFO]: ffeedd[/95.151.34.20:2103] logged in with entity id 1022 at (111.48499328553604, 64.0, -39.029077312281146)
+[14:58:06] [Server thread/INFO]: ffeedd joined the game
+[14:58:15] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[14:58:15] [Server thread/INFO]: ffeedd left the game
+[14:59:25] [User Authenticator #5/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[14:59:25] [Server thread/INFO]: ffeedd[/95.151.34.20:2114] logged in with entity id 1048 at (111.48499328553604, 64.0, -39.029077312281146)
+[14:59:25] [Server thread/INFO]: ffeedd joined the game
+[14:59:42] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[14:59:42] [Server thread/INFO]: ffeedd left the game
+[14:59:57] [User Authenticator #6/INFO]: UUID of player Revan77 is 841bdaf3-440e-4acf-ad8d-61f1a380a6d5
+[14:59:57] [Server thread/INFO]: Revan77[/109.202.111.236:53837] logged in with entity id 1088 at (178.5, 64.0, -70.5)
+[14:59:57] [Server thread/INFO]: Revan77 joined the game
+[14:59:59] [User Authenticator #7/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[15:00:00] [Server thread/INFO]: ffeedd[/95.151.34.20:2119] logged in with entity id 1125 at (109.24455161230483, 64.0, -40.91717982728143)
+[15:00:00] [Server thread/INFO]: ffeedd joined the game
+[15:00:12] [Server thread/INFO]: ffeedd has made the advancement [Monster Hunter]
+[15:01:18] [Server thread/INFO]: Revan77 has made the advancement [Monster Hunter]
+[15:01:52] [Server thread/INFO]: ffeedd was slain by Spider
+[15:03:51] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[15:03:51] [Server thread/INFO]: ffeedd left the game
+[15:04:03] [User Authenticator #8/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[15:04:03] [Server thread/INFO]: ffeedd[/95.151.34.20:2137] logged in with entity id 1718 at (129.28594575667393, 68.0, -18.428771786074627)
+[15:04:03] [Server thread/INFO]: ffeedd joined the game
+[15:04:53] [Server thread/INFO]: ffeedd has made the advancement [Stone Age]
+[15:11:36] [Server thread/INFO]: Revan77 was shot by Pillager
+[15:12:10] [Server thread/INFO]: Revan77 has made the advancement [Voluntary Exile]
+[15:12:51] [Server thread/INFO]: ffeedd has made the advancement [Getting an Upgrade]
+[15:12:52] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[15:12:52] [Server thread/INFO]: ffeedd left the game
+[15:13:12] [User Authenticator #9/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[15:13:12] [Server thread/INFO]: ffeedd[/95.151.34.20:2172] logged in with entity id 3118 at (129.16503812263153, 68.0, -17.79172347770944)
+[15:13:12] [Server thread/INFO]: ffeedd joined the game
+[15:14:24] [Server thread/INFO]: [Revan77: Set the time to 1000]
+[15:14:34] [User Authenticator #10/INFO]: UUID of player SgaboAlSugo is ee7c549a-b52b-4640-bcdf-e54537659f50
+[15:14:34] [Server thread/INFO]: SgaboAlSugo[/176.24.67.170:3080] logged in with entity id 3307 at (175.5, 67.0, -84.5)
+[15:14:34] [Server thread/INFO]: SgaboAlSugo joined the game
+[15:19:43] [Server thread/INFO]: Revan77 has made the advancement [A Seedy Place]
+[15:25:52] [Server thread/INFO]: Revan77 has made the advancement [Getting an Upgrade]
+[15:26:04] [Server thread/INFO]: Revan77 has made the advancement [Stone Age]
+[15:26:49] [Server thread/INFO]: SgaboAlSugo has made the advancement [Stone Age]
+[15:29:48] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[15:29:48] [Server thread/INFO]: ffeedd left the game
+[15:31:00] [User Authenticator #11/INFO]: UUID of player ffeedd is 107ad678-fefe-4fd1-b358-4bc8b4f88cd2
+[15:31:00] [Server thread/INFO]: ffeedd[/95.151.34.20:2307] logged in with entity id 6128 at (143.3000000119209, 51.0, -25.83891371473383)
+[15:31:00] [Server thread/INFO]: ffeedd joined the game
+[15:32:19] [Server thread/INFO]: SgaboAlSugo has made the advancement [Getting an Upgrade]
+[15:37:35] [Server thread/INFO]: Revan77 was shot by Skeleton
+[15:42:46] [Server thread/INFO]: Revan77 was shot by Skeleton
+[16:01:36] [Server thread/INFO]: ffeedd has made the advancement [Acquire Hardware]
+[16:02:01] [Server thread/INFO]: ffeedd has made the advancement [Isn't It Iron Pick]
+[16:09:03] [Server thread/INFO]: Revan77 has made the advancement [Isn't It Iron Pick]
+[16:21:22] [Server thread/INFO]: ffeedd has made the advancement [Suit Up]
+[16:21:22] [Server thread/INFO]: ffeedd has made the advancement [Ice Bucket Challenge]
+[16:25:32] [Server thread/INFO]: Revan77 has made the advancement [Sweet Dreams]
+[16:25:47] [Server thread/INFO]: ffeedd has made the advancement [Sweet Dreams]
+[16:25:54] [Server thread/INFO]: SgaboAlSugo has made the advancement [Sweet Dreams]
+[16:26:15] [Server thread/INFO]: Revan77 has made the advancement [Acquire Hardware]
+[16:32:15] [Server thread/INFO]: SgaboAlSugo has made the advancement [Acquire Hardware]
+[16:32:49] [Server thread/INFO]: SgaboAlSugo has made the advancement [Isn't It Iron Pick]
+[16:44:38] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=112, y=76, z=42} fx{x=112, y=76, z=40}
+[16:44:38] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=112, y=76, z=42} fx{x=112, y=76, z=40}
+[16:46:44] [Server thread/INFO]: ffeedd has made the advancement [Fishy Business]
+[16:50:14] [Server thread/INFO]: Revan77 has made the advancement [Not Today, Thank You]
+[16:51:21] [Server thread/INFO]: Revan77 was blown up by Creeper
+[16:57:34] [Server thread/INFO]: ffeedd has made the advancement [Best Friends Forever]
+[16:58:51] [Server thread/WARN]: SgaboAlSugo moved too quickly! -8.452323919590071,-2.464159374955443,-5.155422287164173
+[17:02:23] [Server thread/INFO]: ffeedd has made the advancement [Not Today, Thank You]
+[17:04:44] [Server thread/INFO]: SgaboAlSugo lost connection: Disconnected
+[17:04:44] [Server thread/INFO]: SgaboAlSugo left the game
+[17:04:44] [Server thread/WARN]: handleDisconnection() called twice
+[17:05:18] [User Authenticator #12/INFO]: UUID of player SgaboAlSugo is ee7c549a-b52b-4640-bcdf-e54537659f50
+[17:05:18] [Server thread/INFO]: SgaboAlSugo[/176.24.67.170:3286] logged in with entity id 24055 at (109.51497359164807, 65.0, 10.419478660685794)
+[17:05:18] [Server thread/INFO]: SgaboAlSugo joined the game
+[17:13:58] [Server thread/INFO]: ffeedd lost connection: Disconnected
+[17:13:58] [Server thread/INFO]: ffeedd left the game
+[17:26:50] [Server thread/INFO]: SgaboAlSugo lost connection: Timed out
+[17:26:50] [Server thread/INFO]: SgaboAlSugo left the game
+[17:26:57] [User Authenticator #13/INFO]: UUID of player SgaboAlSugo is ee7c549a-b52b-4640-bcdf-e54537659f50
+[17:26:57] [Server thread/INFO]: SgaboAlSugo[/176.24.67.170:3329] logged in with entity id 27060 at (146.27889718608586, 60.0, -39.01708763112378)
+[17:26:57] [Server thread/INFO]: SgaboAlSugo joined the game
+[17:27:12] [Server thread/INFO]: SgaboAlSugo lost connection: Timed out
+[17:27:12] [Server thread/INFO]: SgaboAlSugo left the game
+[17:27:15] [User Authenticator #14/INFO]: UUID of player SgaboAlSugo is ee7c549a-b52b-4640-bcdf-e54537659f50
+[17:27:16] [Server thread/INFO]: SgaboAlSugo[/176.24.67.170:3334] logged in with entity id 27126 at (146.27889718608586, 60.0, -39.01708763112378)
+[17:27:16] [Server thread/INFO]: SgaboAlSugo joined the game
+[17:27:31] [Server thread/INFO]: SgaboAlSugo lost connection: Timed out
+[17:27:31] [Server thread/INFO]: SgaboAlSugo left the game
+[17:27:38] [User Authenticator #15/INFO]: UUID of player SgaboAlSugo is ee7c549a-b52b-4640-bcdf-e54537659f50
+[17:27:38] [Server thread/INFO]: SgaboAlSugo[/176.24.67.170:3337] logged in with entity id 27201 at (144.72659533442294, 64.0, -46.467718976418794)
+[17:27:38] [Server thread/INFO]: SgaboAlSugo joined the game
+[17:27:58] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=64, y=70, z=4} fx{x=64, y=69, z=2}
+[17:28:35] [Server thread/WARN]: SgaboAlSugo moved too quickly! -9.778813120970057,-2.0,-1.4680515264305356
+[17:30:38] [Server thread/INFO]: SgaboAlSugo lost connection: Timed out
+[17:30:38] [Server thread/INFO]: SgaboAlSugo left the game
+[17:30:52] [User Authenticator #16/INFO]: UUID of player SgaboAlSugo is ee7c549a-b52b-4640-bcdf-e54537659f50
+[17:30:52] [Server thread/INFO]: SgaboAlSugo[/176.24.67.170:3349] logged in with entity id 27702 at (146.6715978165571, 61.0, -40.409878358559446)
+[17:30:52] [Server thread/INFO]: SgaboAlSugo joined the game
+[17:32:20] [Server thread/WARN]: SgaboAlSugo moved too quickly! -9.646417296470815,-0.5625,-2.879875185010711
+[17:32:37] [Server thread/INFO]: SgaboAlSugo lost connection: Timed out
+[17:32:37] [Server thread/INFO]: SgaboAlSugo left the game
+[17:33:47] [User Authenticator #17/INFO]: UUID of player SgaboAlSugo is ee7c549a-b52b-4640-bcdf-e54537659f50
+[17:33:47] [Server thread/INFO]: SgaboAlSugo[/176.24.67.170:3357] logged in with entity id 28104 at (137.97377090975846, 60.0, -39.53777458802545)
+[17:33:47] [Server thread/INFO]: SgaboAlSugo joined the game
+[17:33:52] [Server thread/INFO]: SgaboAlSugo lost connection: Disconnected
+[17:33:52] [Server thread/INFO]: SgaboAlSugo left the game
+[17:35:29] [Server thread/INFO]: Revan77 lost connection: Disconnected
+[17:35:29] [Server thread/INFO]: Revan77 left the game
