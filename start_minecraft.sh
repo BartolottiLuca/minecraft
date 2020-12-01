@@ -7,7 +7,6 @@ NC='\033[0m' # No Color
 
 set -o errexit
 set -o pipefail
-set -x
 
 os_id=387 # ubuntu 20.04
 region_id=8 # london
