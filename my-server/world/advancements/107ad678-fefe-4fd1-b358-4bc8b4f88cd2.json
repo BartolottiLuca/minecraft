@@ -281,9 +281,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2020-12-02 20:42:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_netherbrick": "2020-11-28 17:06:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2020-12-02 21:06:16 +0000"
     },
     "done": true
   },
@@ -308,6 +320,12 @@
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2020-12-02 12:35:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_reeds": "2020-12-02 21:00:21 +0000"
     },
     "done": true
   },
@@ -580,6 +598,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2020-12-02 20:42:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2020-12-02 12:45:25 +0000"
@@ -808,6 +832,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2020-12-02 21:07:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:spider": "2020-11-28 15:00:52 +0000",
@@ -837,6 +867,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2020-11-28 15:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2020-12-02 21:07:11 +0000"
     },
     "done": true
   },
@@ -972,6 +1008,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2020-12-02 21:07:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_planks": "2020-11-15 18:44:49 +0000"
@@ -1017,6 +1059,12 @@
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2020-11-28 15:05:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2020-12-02 21:00:21 +0000"
     },
     "done": true
   },
@@ -1095,6 +1143,12 @@
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2020-12-02 12:36:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2020-12-02 20:47:08 +0000"
     },
     "done": true
   },
@@ -1456,6 +1510,7 @@
     "criteria": {
       "minecraft:mountains": "2020-11-28 15:16:42 +0000",
       "minecraft:forest": "2020-11-28 16:19:00 +0000",
+      "minecraft:dark_forest": "2020-12-02 20:58:00 +0000",
       "minecraft:river": "2020-11-28 14:59:36 +0000",
       "minecraft:wooded_mountains": "2020-11-28 17:12:52 +0000",
       "minecraft:wooded_hills": "2020-11-28 16:36:28 +0000",
@@ -1592,6 +1647,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2020-11-15 18:45:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2020-12-02 20:42:45 +0000"
     },
     "done": true
   },
