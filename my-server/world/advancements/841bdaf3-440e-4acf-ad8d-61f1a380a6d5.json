@@ -209,6 +209,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2020-12-03 14:37:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2020-11-28 15:18:22 +0000"
@@ -260,6 +266,12 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2020-11-28 15:26:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2020-12-03 14:16:07 +0000"
     },
     "done": true
   },
@@ -321,6 +333,7 @@
     "criteria": {
       "cooked_porkchop": "2020-11-28 16:07:14 +0000",
       "cooked_mutton": "2020-11-28 15:46:53 +0000",
+      "sweet_berries": "2020-12-03 14:13:54 +0000",
       "apple": "2020-11-28 16:58:39 +0000",
       "bread": "2020-11-28 17:02:34 +0000"
     },
@@ -662,6 +675,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2020-12-03 14:16:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2020-11-28 16:24:46 +0000",
@@ -694,6 +713,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2020-11-28 16:25:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2020-12-03 14:37:50 +0000"
     },
     "done": true
   },

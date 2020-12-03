@@ -227,6 +227,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2020-12-02 12:36:41 +0000"
@@ -242,6 +248,12 @@
   "minecraft:recipes/tools/shears": {
     "criteria": {
       "has_iron_ingot": "2020-11-28 16:01:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2020-12-03 14:08:19 +0000"
     },
     "done": true
   },
@@ -269,6 +281,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2020-11-28 14:53:00 +0000"
@@ -287,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2020-12-03 13:45:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_bricks": {
     "criteria": {
       "has_netherbrick": "2020-11-28 17:06:38 +0000"
@@ -296,6 +320,12 @@
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2020-12-02 21:06:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2020-12-03 12:59:36 +0000"
     },
     "done": true
   },
@@ -338,9 +368,11 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2020-11-28 16:52:50 +0000",
+      "cooked_mutton": "2020-12-03 13:38:40 +0000",
       "cooked_beef": "2020-11-28 15:46:39 +0000",
       "mutton": "2020-11-15 18:49:38 +0000",
       "bread": "2020-11-28 16:33:52 +0000",
+      "beetroot": "2020-12-03 13:49:49 +0000",
       "cooked_chicken": "2020-11-28 15:15:19 +0000"
     },
     "done": false
@@ -527,8 +559,10 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:llama": "2020-12-03 13:38:50 +0000",
       "minecraft:sheep": "2020-12-02 12:37:04 +0000",
-      "minecraft:cow": "2020-12-02 12:37:01 +0000"
+      "minecraft:cow": "2020-12-02 12:37:01 +0000",
+      "minecraft:chicken": "2020-12-03 13:33:46 +0000"
     },
     "done": false
   },
@@ -574,6 +608,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2020-11-28 15:04:53 +0000"
@@ -607,6 +647,12 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2020-12-02 12:45:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
     },
     "done": true
   },
@@ -778,6 +824,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2020-12-03 12:59:36 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2020-11-28 16:46:44 +0000"
@@ -838,13 +890,32 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2020-12-03 13:45:09 +0000",
       "minecraft:spider": "2020-11-28 15:00:52 +0000",
       "minecraft:zombie": "2020-12-01 22:00:07 +0000",
       "minecraft:drowned": "2020-11-28 15:00:12 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
@@ -948,6 +1019,12 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2020-11-28 15:12:51 +0000"
@@ -957,6 +1034,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-11-28 15:05:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
     },
     "done": true
   },
@@ -1080,6 +1163,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_double_plant": "2020-12-03 13:13:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2020-12-02 12:35:31 +0000"
@@ -1104,6 +1193,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-11-28 15:36:34 +0000"
@@ -1119,6 +1214,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2020-11-15 18:43:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_blue_flower": "2020-12-03 14:01:08 +0000"
     },
     "done": true
   },
@@ -1510,6 +1611,8 @@
     "criteria": {
       "minecraft:mountains": "2020-11-28 15:16:42 +0000",
       "minecraft:forest": "2020-11-28 16:19:00 +0000",
+      "minecraft:taiga": "2020-12-03 12:59:18 +0000",
+      "minecraft:taiga_hills": "2020-12-03 13:00:28 +0000",
       "minecraft:dark_forest": "2020-12-02 20:58:00 +0000",
       "minecraft:river": "2020-11-28 14:59:36 +0000",
       "minecraft:wooded_mountains": "2020-11-28 17:12:52 +0000",
@@ -1644,6 +1747,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2020-11-15 18:45:44 +0000"
@@ -1740,6 +1849,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2020-12-03 14:27:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_stone": "2020-11-28 15:36:34 +0000"
@@ -1812,6 +1927,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_white_flower": "2020-12-03 13:06:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
       "has_glass": "2020-12-02 12:36:41 +0000"
@@ -1821,6 +1942,12 @@
   "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-11-28 16:19:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2020-12-03 14:08:19 +0000"
     },
     "done": true
   },
